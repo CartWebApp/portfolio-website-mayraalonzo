@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    background-color: #FFF1F7;
+    color: #2d2a45;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #FFD9EB;
+    padding: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.nav-links li a {
+    color: #2d2a45;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links .active a {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.writing-section {
+    text-align: center;
+}
+
+.writing-section h1 {
+    font-size: 2.5rem;
+    color: #F69AC2;
+    margin-bottom: 1rem;
+}
+
+.writing-section p {
+    font-size: 1.1rem;
+    color: #2d2a45;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+.writing-sample {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #FFD9EB;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.writing-sample h2 {
+    font-size: 1.6rem;
+    color: #F69AC2;
+    margin-bottom: 1rem;
+}
+
+.writing-sample a {
+    color: #2d2a45;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.writing-sample a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #FFD9EB;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.social-icons {
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    color: #F69AC2;
+    font-size: 2rem;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #333;
+}

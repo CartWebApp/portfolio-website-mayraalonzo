@@ -282,3 +282,42 @@
     background-color: #e83e8c;
   }
   
+  /* Existing CSS for the contact-form */
+.contact-form {
+  margin-top: 4rem;
+  background: #FFE6EF;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 1000px; /* Make sure the form has the same max width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* New Thank You Card Styling (Same Length as the Form) */
+.thank-you-card {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.thank-you-card .card {
+  background: #F69AC2;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 1000px; /* Same width as the contact form */
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.thank-you-card .card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.thank-you-card .card p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
