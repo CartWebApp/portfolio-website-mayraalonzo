@@ -1,11 +1,11 @@
-/* General Styles */
+
 body {
     background-color: #FFF1F7;
     color: #2d2a45;
     font-family: 'Poppins', sans-serif;
 }
 
-/* Header and Navigation */
+
 header {
     background-color: #FFD9EB;
     padding: 1rem;
@@ -29,7 +29,7 @@ header {
     text-decoration: underline;
 }
 
-/* Main Content */
+
 main {
     padding: 3rem 2rem;
     max-width: 1000px;
@@ -79,10 +79,9 @@ main {
     text-decoration: underline;
 }
 
-/* Footer */
+
 footer {
     background-color: #FFD9EB;
-    padding: 1.5rem 0;
     text-align: center;
     font-size: 0.9rem;
     color: #555;

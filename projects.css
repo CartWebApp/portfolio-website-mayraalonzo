@@ -1,97 +1,70 @@
-/* General Styles */
-body {
-    background-color: #FFF1F7;
-    color: #2d2a45;
-    font-family: 'Poppins', sans-serif;
+/* Page Header and Description */
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #F69AC2;
+    margin-bottom: 1rem;
 }
 
-/* Header and Navigation */
-header {
+.page-description {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #2d2a45;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    line-height: 1.6;
+}
+
+/* Project Card Styling */
+.project-card {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
     background-color: #FFD9EB;
-    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 2rem;
-    flex-wrap: wrap;
+.project-card h2 {
+    font-size: 1.8rem;
+    color: #F69AC2;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
-.nav-links li a {
-    color: #2d2a45;
+.project-card a {
+    color: #F69AC2;
     text-decoration: none;
     font-weight: bold;
 }
 
-.nav-links .active a {
+.project-card a:hover {
+    color: #F69AC2;
     text-decoration: underline;
 }
 
-/* Main Content */
-main {
-    padding: 3rem 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
+.project-card p {
+    color: #2d2a45;
+    font-size: 1.05rem;
+    margin: 0.5rem 0;
+    text-align: center;
 }
 
-.project {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #FFD9EB;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project h2 {
-    font-size: 1.6rem;
-    color: #F69AC2;
-    margin-bottom: 1rem;
-}
-
-.project a {
-    color: #2d2a45; /* Set the link color to dark */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold;
-}
-
-.project a:hover {
-    color: #F69AC2; /* Change color on hover (optional) */
-    text-decoration: underline; /* Add underline on hover */
-}
-
+/* Project Image Styling */
 .project-image {
-    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    margin: 1.2rem 0;
 }
 
 .project-image img {
     width: 100%;
-    max-height: 250px;
-    object-fit: cover;
+    max-width: 500px;
     border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-/* Footer */
-footer {
-    background-color: #FFD9EB;
-    padding: 1.5rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #555;
-}
-
-.social-icons {
-    margin-bottom: 1rem;
-}
-
-.social-icons a {
-    color: #F69AC2;
-    font-size: 2rem;
-    margin: 0 1rem;
-    transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
-    color: #333;
+.project-image img:hover {
+    transform: scale(1.03);
 }
